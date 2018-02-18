@@ -1,5 +1,4 @@
 head {
-    background-color:grey;
     font-family: "Garamond";
     font-style: oblique;
     font-size: 200%;
@@ -8,7 +7,7 @@ head {
 }
 
 body{
-
+    background-color:  #f2f2f2
 }
 
 h1 {
