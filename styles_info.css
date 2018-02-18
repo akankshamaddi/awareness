@@ -54,6 +54,27 @@ li a,
     
 }
 
+  .awareness{
+    float: left;
+    width: 145px;
+    border: 10px;
+    border-color: coral;
+    padding: 0px;
+   
+    margin-left: 0px;
+    height:auto;
+
+    top: 0px;
+    
+}
+
+
+body{
+    text-align:center;
+    font-family:Argentum;
+}
+
+
 .gun {
     height:200px;
     width:300px;
@@ -62,17 +83,27 @@ li a,
     margin-left: auto;
     margin-right: auto;
     float: inherit;
+    text-align: center;
+
     margin-bottom: 20px;
 }
-.awareness{
-    float: left;
+
+
+
+.search {
+    float: right;
     width: 150px;
-    border: 10px;
-    border-color: coral;
+    border: 10px gray;
     padding: 0px;
     margin: 0px;
     height:auto;
     position: absolute;
+    left: 1075px;
     top: 0px;
     
+}
+
+@font-face {
+    font-family: Argentum;
+    src: url(hinted-ArgentumSans-ExtraLight.ttf);
 }

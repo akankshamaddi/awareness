@@ -3,24 +3,28 @@
 
 <script src="https://www.w3schools.com/lib/w3.js"></script>
 
-<head>
-    <link rel="stylesheet" href="styles.css"/>
-    <img class="gun" src="logo-2.png" class="center">
-    <img class="awareness" src="logo-4.png">
+<html>
+       
+   
+    <head>
+            <link rel="stylesheet" href="styles.css" />
+           <img class="awareness" src="logo-4.png">
+          <img class="gun" id = "gun" src="logo-2.png" class="center">
+         
+   
+    
     <nav>
+       
     <ul class="menuBar">
         <li><a href="Home.html" id="Home">Home</a></li>
         <li><a href="Charities.html" id="Charities">Charities</a></li>
         <li><a href="Projects.html" id="Projects">Projects</a></li>
         <li><a href="Info.html" id="Info">Info</a></li>
-
-
-    </ul>
-
+        </ul>
 </nav>
-
-
-</head>
+       
+    <div class="parallax">WELCOME</div>
+    </head>
 
 
 <body>
@@ -78,31 +82,43 @@
 
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<p> </p>
 
 
     <div class="fact">
-        <p align="center">Nearly 1 in 3 victims of mass shootings in the U.S. is a child</p>
-        <p align="center">The Washington gun lobby claims that areas where gun-carrying is restricted - gun-free zones - cause mass violence rather than reduce it.</p>
+        <p a>Nearly 1 in 3 victims of mass shootings in the U.S. is a child</p>
+        <p >The Washington gun lobby claims that areas where gun-carrying is restricted - gun-free zones - cause mass violence rather than reduce it.</p>
         <p>Between January 2009 and July 2015, there were at least 133 mass shootings in the U.S. Not all of them make headlines—and the story the data tells is different from the one that mass media would have you expect.</p>
         <p>States that require background checks for all handgun sales experience significantly fewer mass shootings.</p>
     </div>
 
-    <p></p>
+    <br><br/>
+    
 
-        <p align = "center">The signs are there. Recognize them:</p>
-
+     <div class = text2>
+        <p align = "center" class = "signs">The signs are there. Recognize them:</p>
+    </div>
     <div style="width:900px; margin:0 auto;">
-         <video width="740" height="400" class="videoTag" controls align = "middle">
+         <video width="740" height="400" class="videoTag">
                 <source src="Sandy Hook Promise Gun violence warning signs.mp4" 
                 type="video/mp4">
         </video>
              
-        </div>
-   <div style="width:200px; margin:0 auto;">
-       Courtesy of Youtube
-       </div>
+    </div>
+    <script src="js/script.js">$('.video').parent().click(function () {
+    if($(this).children(".video").get(0).paused){
+        $(this).children(".video").get(0).play();
+        $(this).children(".playpause").fadeOut();
+    }else{
+       $(this).children(".video").get(0).pause();
+        $(this).children(".playpause").fadeIn();
+    }
+});</script>
 
-    <div class="parallax"></div>
+    
+   <div class = "vidTxt" style="width:200px; margin:0 auto;">
+       <p>Courtesy of Youtube</p>
+       </div>
 
     <h3>
         Social Media

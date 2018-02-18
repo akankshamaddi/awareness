@@ -1,7 +1,10 @@
 head {
+    background-color:grey;
     font-family: "Garamond";
-    font-style: "oblique";
+    font-style: oblique;
     font-size: 200%;
+    
+    
 }
 
 body{
@@ -9,12 +12,9 @@ body{
 }
 
 h1 {
-    font-family: "Verdana"
+     font-family:Argentum;
     font-style: "normal";
     font-size: 200%;
-}
-p1{
-    text-align: center;
 }
 
 style= "color: black">change hyperlink color</a>
@@ -28,6 +28,7 @@ background {
 }
 
 #article{
+   
     padding-top: 20px;
     padding-left:20px;
     text-align: left;
@@ -37,7 +38,7 @@ background {
     border:15px solid  #e68c4d;
     font:16px/26px Georgia, Garamond, Serif;
     overflow:auto;
-    margin-left:250px;
+    margin-left:300px;
     
 }
 .gun {
@@ -49,17 +50,18 @@ background {
     margin-right: auto;
     float: inherit;
 
-;
+
     margin-bottom: 20px;
 }
 
 .awareness{
     float: left;
-    width: 150px;
+    width: 145px;
     border: 10px;
     border-color: coral;
     padding: 0px;
-    margin: 0px;
+    margin-left: 0px;
+  
     height:auto;
     position: absolute;
     top: 0px;
@@ -80,13 +82,14 @@ background {
 
 .fact {
     width: 315px;
-    padding: 25px;
-    margin-left: 410px;
-    margin-top: 25px;
-    border:30px;
+    padding-left: auto;
+    padding-right:auto;
+    float: none;
     border-color: coral;
     text-align: center;
     border:15px solid #e68c4d;
+    position: center;
+    margin:0 auto;
     
 }
 
@@ -126,14 +129,17 @@ background {
 }
 
 ul {
+    font-family: Argentum;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    
 }
 
 li {
+    font-family: Argentum;
    position: relative;
     float: left;
 }
@@ -142,6 +148,7 @@ li {
 
 li a,
 .dropbtn {
+    font-family: Argentum;
     display: inline-block;
     color: white;
     text-align: center;
@@ -155,8 +162,7 @@ li a,
     text-align: center;
 }
 #Home{
-    background-color: #333;
-    color: white;
+    background-image: url("https://i.pinimg.com/736x/32/da/7f/32da7f722eee39107e639cff68226759--shooting-guns-gun-control.jpg");
     border: none;
     text-align: center;
 }
@@ -209,19 +215,34 @@ li.dropdown {
 
 .parallax {
     /* The image used */
-    background-image: url("https://i.pinimg.com/736x/32/da/7f/32da7f722eee39107e639cff68226759--shooting-guns-gun-control.jpg");
+    background-image: url("guncontrol2.jpg");
 
-  opacity: 0.5;
-
+ 
+   font-size: 100px;
+    text-align:center;
+    height: 5em;
+    line-height: 5em;
+    font-family: Argentum;
+    color:white;
     /* Set a specific height */
     height: 500px;
     
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    top: 1500px;
+    top: 750px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+   
+}
+
+.text2{
+    text-align:center;
+}
+
+gun{
+   width:500px;
+   height:300px;
 }
 
 body {
@@ -321,23 +342,56 @@ h3 {
 }
 
 .videoTag {
-    display:block;
-    margin:30px;
+   
+     margin: 0 auto;
+    display: block;
     padding-top: 30px;
+    padding-left: auto;
+    padding-right: auto;
     float:center;
+    text-align: center;
 }
 
 /* Style the video: 100% width and height to cover the entire window */
 .videoFrame {
-    height:200px;
-    width:300px;
-    display: block;
-    margin: auto;
+    height:90%;
+    width:100%;
+    margin: 0 auto;
+   display: block;
     margin-left: auto;
     margin-right: auto;
     float: inherit;
     
        
+}
+
+.signs{
+     font-family:Argentum;
+}
+
+.video {
+    width: 100%;
+    border: 1px solid black;
+}
+.wrapper{
+    display:table;
+    width:auto;
+    position:relative;
+    width:50%;
+}
+.playpause {
+    background-image:url(http://png-4.findicons.com/files/icons/2315/default_icon/256/media_play_pause_resume.png);
+    background-repeat:no-repeat;
+    width:50%;
+    height:50%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
 }
 
 /* Add some content at the bottom of the video/page */
@@ -361,6 +415,7 @@ h3 {
     cursor: pointer;
 }
 .videoText{
+     font-family:Argentum;
     margin: 0 auto;
    display: block;
    width: 100%;
@@ -372,7 +427,9 @@ h3 {
 
 .videoFrame{
   width:100%;
-  position: realtive;
+  position: relative;
+   margin: 0 auto;
+   display: block;
 }
 
 .signsText{
@@ -390,14 +447,27 @@ h3 {
 .videoFrame iframe{
    margin: 0 auto;
    display: block;
-   width: 560px;
+   
 }
 .table{
     display:table;
     height: 100%;
     width: 100%;
 }
+
+.vidTxt{
+     font-family:Argentum;
+}
+
+
+
 .table-cell{
     display:table-cell;
     vertical-align: middle;
+}
+
+
+@font-face {
+    font-family: Argentum;
+    src: url(hinted-ArgentumSans-ExtraLight.ttf);
 }
